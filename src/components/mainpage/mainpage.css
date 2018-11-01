@@ -1,29 +1,99 @@
+#parallax-space {
+    /* The image used */
+    background-image: url("blue-orange-space.jpg");
+    /* Set a specific height */
+    height: 700px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax-nash {
+    /* The image used */
+    background-image: url("nash.jpg");
+    /* Set a specific height */
+    height: 700px;
+    opacity: .80;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #header-div {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    /* The image used */
+    background-image: url("Sacramento_Skyline.jpg");
+    opacity: .80;
+    /* Set a specific height */
+    height: 900px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #header-div h2 {
     margin: .5rem 2rem .5rem 2rem;
+    font-size: 10em;
 }
 
 #header-div h4 {
     margin: 1rem 2rem 1rem 2rem;
 }
-
-#space-pic {
-    width: 100%;
-    height: auto;
-    position: relative;
+#nav-link-div {
+    font-size: 1.5em;
+    display: flex;
 }
 
 #hello-div {
     width: 100%;
-    position: absolute;
     color: rgb(0, 37, 94);
-    top: 5rem;
-    background-color: #ffffff69;
+    background-color: #66ace6;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about-me {
+    margin: 15rem 2rem 15rem 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#about-me h2 {
+    font-size: 3.5em;
+}
+#about-me p {
+    font-size: 1.5em;
+}
+
+#project-div {
+    margin: 15rem 2rem 15rem 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#project-div h2 {
+    font-size: 3.5em;
+}
+
+#tech-used-div {
+    margin: 10rem 2rem 10rem 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#tech-used-div h2{
+    font-size: 3.5em;
 }
