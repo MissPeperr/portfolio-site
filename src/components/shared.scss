@@ -1,0 +1,18 @@
+@mixin parallax($image) {
+    /* The image used */
+    background-image: url($image);
+    /* Set a specific height */
+    height: 700px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+%info-div {
+    margin: 20rem 2rem 20rem 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

@@ -1,0 +1,67 @@
+@import '../shared';
+
+#parallax-space {
+    @include parallax("blue-orange-space.jpg");
+}
+
+#parallax-nash {
+    @include parallax("nash.jpg");
+    opacity: .80;
+}
+
+#header-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    @include parallax("Sacramento_Skyline.jpg");
+    opacity: .80;
+    h2 {
+        margin: .5rem 2rem .5rem 2rem;
+        font-size: 10em;
+    }
+    h4 {
+        margin: 1rem 2rem 1rem 2rem;
+    }
+    #nav-link-div {
+        font-size: 1.5em;
+        display: flex;
+        color: green;
+    }
+    
+    #hello-div {
+        width: 100%;
+        color: rgb(0, 37, 94);
+        background-color: #66ace6;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+#about-me {
+    @extend %info-div;
+    h2 {
+        font-size: 3.5em;
+    }
+    p {
+        font-size: 1.5em;
+    }
+} 
+
+#project-div {
+    @extend %info-div;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    h2 {
+        font-size: 3.5em;
+    }
+}
+
+#tech-used-div {
+    @extend %info-div;
+    h2 {
+        font-size: 3.5em;
+    }
+}

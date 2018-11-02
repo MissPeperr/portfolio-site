@@ -2,7 +2,6 @@
   "name": "personal-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://misspeperr.github.io/portfolio-site",
   "dependencies": {
     "bootstrap": "^4.1.3",
     "gh-pages": "^2.0.1",
