@@ -81,10 +81,24 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+
 }
 
 #project-div h2 {
     font-size: 3.5em;
+}
+
+#project-div p {
+    font-size: 1.5em;
+}
+
+#project-div a {
+    color: royalblue;
+    text-decoration: none;
+}
+
+#collectable-div {
+    margin-bottom: 3rem;
 }
 
 #tech-used-div {
