@@ -1,3 +1,5 @@
+
+
 #parallax-space {
     /* The image used */
     background-image: url("blue-orange-space.jpg");
@@ -74,6 +76,21 @@
 }
 #about-me p {
     font-size: 1.5em;
+}
+
+#about-me-paragraph {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#madi-fun-img {
+    align-self: center;
+    margin-right: 2rem;
+    width: 8rem;
+    height: auto;
+    border-radius: 2%;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
 
 #project-div {
