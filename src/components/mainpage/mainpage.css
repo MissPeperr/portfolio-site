@@ -69,6 +69,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    font-family: 'Noto Serif TC', serif;
 }
 
 #about-me h2 {
@@ -98,6 +99,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    font-family: 'Noto Serif TC', serif;
 
 }
 

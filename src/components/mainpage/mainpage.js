@@ -23,8 +23,8 @@ export default class MainPage extends Component {
                     <div id="about-me-paragraph">
                         <img id="madi-fun-img" src={require('./MadisonPeper_Fun.jpg')} />
                         <p>I'm a problem solving nerd on a mission to learn as much as I can in my lifetime. I've always expressed my creativity through art across various different mediums, and I've found that I can express my creativity through code as well. While working in the customer service industry, I encountered a world of problems that needed solving. Seeing the results of my work in my customer's happy faces and positive feedback, I realized that I not only enjoyed problem solving, but I had a knack for it. That's when I looked to software development.
-                        Born and raised from the Sacramento area of California.
                         </p>
+                        <p>From the Golden State of California, and having a father working in the IT industry, technology was a big part of my life. </p>
                     </div>
                 </div>
                 <div id="parallax-space"></div>
